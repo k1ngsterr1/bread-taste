@@ -13,5 +13,11 @@ export const Selector: React.FC<ISelectorProps> = ({
   isActive,
   onClick,
 }) => {
-  return <button className={styles.selector}>{name}</button>;
+  const buttonClasses = `${styles.selector} ${isActive ? styles.active : ""}`;
+
+  return (
+    <button className={buttonClasses} onClick={onClick}>
+      {name}
+    </button>
+  );
 };

@@ -18,3 +18,25 @@
     color: #bca086;
   }
 }
+
+.active {
+  min-width: 110px;
+  height: 50px;
+  font-size: 24px;
+  padding-left: 90px;
+  padding-right: 90px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  color: #bca086;
+  border-bottom: 4px solid #bca086;
+  transition: 0.3s all;
+
+  &:hover {
+    border-bottom: 4px solid #bca086;
+    color: #bca086;
+  }
+}
