@@ -64,10 +64,13 @@
 // }
 
 .card {
-  width: 230px; // Initial width suitable for the first image
+  width: 230px;
   height: 240px;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: white;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -77,11 +80,18 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-}
+  cursor: pointer;
+  transition: 0.3s all;
 
-// .card:hover {
-//   width: 930px; // Expanded width as per the second image
-// }
+  &__text {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  &:hover {
+    box-shadow: 0 7px 8px rgba(0, 0, 0, 0.18);
+  }
+}
 
 .image {
   width: 100%;
@@ -92,9 +102,9 @@
   display: none;
   position: absolute;
   top: 10px;
-  left: 250px; // Positioned right of the image in expanded state
+  left: 250px;
   padding: 10px;
-  width: calc(100% - 260px); // Adjusted width minus image and padding
+  width: calc(100% - 260px);
   visibility: hidden;
   transition: visibility 0s, opacity 0.3s linear 0.3s;
 }
