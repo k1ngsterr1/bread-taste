@@ -9,9 +9,9 @@
 }
 
 .grid {
-  gap: 48px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 48px;
   margin-top: 32px;
   margin-bottom: 32px;
 }

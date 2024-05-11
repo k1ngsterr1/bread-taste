@@ -64,8 +64,9 @@
 // }
 
 .card {
-  width: 230px;
+  width: 250px;
   height: 240px;
+  grid-column: span 1;
   text-align: center;
   padding: 15px;
   display: flex;
