@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "ProximaSoft", sans-serif;
+}
+
+body {
+  background-color: white;
+}
+
+@font-face {
+  font-family: "ProximaSoft";
+  src: url("../../assets/fonts/ProximaSoft-Black.ttf") format("truetype");
+  font-weight: 900; /* Black */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ProximaSoft";
+  src: url("../../assets/fonts/ProximaSoft-Bold.ttf") format("truetype");
+  font-weight: bold; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ProximaSoft";
+  src: url("../../assets/fonts/ProximaSoft-ExtraBold.ttf") format("truetype");
+  font-weight: 800; /* ExtraBold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ProximaSoft";
+  src: url("../../assets/fonts/ProximaSoft-Light.ttf") format("truetype");
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ProximaSoft";
+  src: url("../../assets/fonts/ProximaSoft-Medium.ttf") format("truetype");
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ProximaSoft";
+  src: url("../../assets/fonts/ProximaSoft-Regular.ttf") format("truetype");
+  font-weight: normal; /* Regular */
+  font-style: normal;
+}

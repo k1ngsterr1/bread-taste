@@ -1,0 +1,17 @@
+.catalogue {
+  width: 86.6%;
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 128px;
+}
+
+.grid {
+  gap: 48px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
